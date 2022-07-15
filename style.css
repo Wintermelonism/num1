@@ -9,7 +9,7 @@
 }
 
 body{
-    background-image: url("https://dawae.live/img/endVid.gif"); 
+    background-image: url("https://dawae.live/endVid.gif"); 
     background-position: center center;
     background-repeat:  no-repeat;
     background-attachment: fixed;
@@ -33,7 +33,7 @@ body{
 	width: 250px;
     height: 250px;
     background-position: center;
-	background-image: url("https://dawae.live/img/card.png"); 
+	background-image: url("https://dawae.live/card.png"); 
     background-repeat: no-repeat;
     color: white;
 }
