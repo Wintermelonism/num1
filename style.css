@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+*,*::after,*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+body{
+    background-image: url("https://wintermelonism.github.io/num1/img/endVid.gif"); 
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+
+}
+
+
+.card-container, .intro-container, .paragraph-container {
+	align-items: start;
+	display: grid;
+	grid-gap: 2rem;
+	grid-template-columns: repeat(auto-fit, 250px);
+	justify-content: center;
+    position: relative;
+    top: 10rem;
+}
+
+.card {
+	width: 250px;
+    height: 250px;
+    background-position: center;
+	background-image: url("https://wintermelonism.github.io/num1/img/card.png"); 
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.content{
+    position: relative;
+    top: 35%;
+    text-align: center;
+}
+
+
+.intro {
+	border-radius: 2rem;
+	width: 50;
+	height: auto;
+}
+
+.introContent{
+    text-align: left;
+    position: relative;
+    margin-top: 20px;
+
+}
+.title {
+    /*border: 5px solid #FFFF00;*/
+    text-align: center;
+    position: relative;
+    top: 1.5rem;
+}
+
+
+.titles {
+    /*border: 5px solid #FFFF00;*/
+    text-align: center;
+    position: relative;
+    top: 9rem;
+}
+
+.buy{
+    appearance: none;
+    cursor: pointer;
+    padding: 12px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    min-width: 200px;
+    min-height: 50px;
+    border-radius: 30px;
+    border: 10px;
+    background-color: #e33f64;
+    color: white;
+    font-size: 1.5rem;
+   
+}
+
+
+.learnMore{
+    appearance: none;
+    cursor: pointer;
+    padding: 12px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    min-width: 150px;
+    min-height: 50px;
+    border-radius: 30px;
+    border: 10px;
+    background-color: #e33f64;
+    color: white;
+    font-size: 1.5rem;
+   
+}
+
+
+
+.paragraph {
+	border-radius: 2rem;
+	width: 250px;
+	height: 250px;
+    background-color: red;
+    /*margin-top: 10rem;*/
+}
+
+.paragraph-content{
+    position: relative;
+    text-align: left;
+}
+
+.square{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.cardImg{
+    width: 250px;
+    height: 250px;
+}
+
+
+.head{
+    font-size: 5rem;
+    color: white;
+    text-shadow: 
+    3px  3px     #000, 
+   -3px  3px     #000, 
+    3px -3px     #000, 
+   -3px -3px     #000,
+    3px  3px    8px #000;
+}
+
+.outline{
+    text-shadow: 
+    2px  2px     #000, 
+   -2px  2px     #000, 
+    2px -2px     #000, 
+   -2px -2px     #000,
+    2px  2px    7px #000;
+    color: white;
+}
